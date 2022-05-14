@@ -1,0 +1,27 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(images/wood.jpg);
+    background-size: cover;
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+h1 {
+    color: lightskyblue;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button {
+    width: 140px;
+    margin: 2px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    color: sienna;
+    font-weight: bold;
+    background-color: lightskyblue;
+}
