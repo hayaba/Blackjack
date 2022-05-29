@@ -20,8 +20,6 @@ let player = {
 let playerEl = document.getElementById("player-el");
 playerEl.textContent = player.name + ": $" + player.chips;
 
-console.log(cards);
-
 function getRandomCard() {
   let randomNumber = Math.floor(Math.random() * 13) + 1;
   if (randomNumber > 10) {
@@ -72,3 +70,15 @@ function newCard() {
     }
  
 }
+
+
+// ------ Create a function that returns a random item from the array
+// -------------------- Rock, peper, scissor ------------------------
+let hands = ["rock", "peper", "scissor"]
+
+function getHand() {
+  let randomIndex = Math.floor(Math.random() * 3)
+  return hands[randomIndex]
+}
+
+console.log(getHand())
